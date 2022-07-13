@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,9 +22,7 @@ public class BatteriesStatusByPostalCodeResponseDto extends ResponseDto {
     public BatteriesStatusByPostalCodeResponseDto(List<Battery> batteryList) {
         this.statics = new BatteriesStaticsResponseDto(batteryList);
         this.batteries = batteryList.stream()
-                .map(BatteryResponseDto::new)
+                .map(BatteryResponseDto::new).sorted(Comparator.comparing(BatteryResponseDto::getName))
                 .collect(Collectors.toList());
     }
-
-
 }
