@@ -6,7 +6,7 @@ import lombok.Getter;
 public enum ErrorResponseStatusType {
 
     INTERNAL_SERVER_ERROR(5000, "Internal server error."),
-    INVALID_POSTAL_CODE(5001,"Invalid postal code."),
+    INVALID_POSTAL_CODE(5001, "Invalid postal code."),
     INVALID_VALUE(5002, "Invalid values for battery watt & capacity.");
 
 
