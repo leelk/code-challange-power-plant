@@ -18,5 +18,8 @@ All dependencies are available in pom.xml.
 Configure the relevant configurations in application.yml and bootstrap.yml in src/main/resources before building the
 application
 
+
 ## Swagger-Ui URL
-http://localhost:8080/swagger-ui/
+###### CodeBase deployed on AWS EBS. It can be accessed by following url: 
+
+http://codechallange-env.eba-dchwx9xu.us-east-1.elasticbeanstalk.com/swagger-ui/
