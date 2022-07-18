@@ -21,5 +21,5 @@ application
 
 ## Swagger-Ui URL
 ###### CodeBase deployed on AWS EBS. It can be accessed by following url: 
-
+##### Updated: Service stoped.
 http://codechallange-env.eba-dchwx9xu.us-east-1.elasticbeanstalk.com/swagger-ui/
